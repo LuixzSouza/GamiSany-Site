@@ -39,7 +39,7 @@ const Capitulos = [
 export function TabNavigtion() {
     return (
         <div className="flex flex-col w-full relative z-20 mt-16">
-            <div className="w-full flex items-center gap-8 mb-8">
+            <div className="w-full flex items-center gap-2 mb-8 @tablet:gap-8">
                 {TabLinks.map((item, index) => (
                     <div key={index} className="relative group">
                         <p className="relative cursor-pointer text-base font-medium text-ColorWhite/50 hover:text-ColorWhite ease-linear">
@@ -49,8 +49,8 @@ export function TabNavigtion() {
                     </div>
                 ))}
             </div>
-            <div className="flex gap-8 justify-between">
-                <div className="flex items-center gap-11 bg-gradient-to-r from-slate-500/55 to-slate-500/5 backdrop-blur-2xl border-gray-500 border rounded-2xl h-96 w-Full p-9">
+            <div className="flex flex-col gap-8 justify-between @desktop:flex-row">
+                <div className="flex flex-col items-center gap-11 bg-gradient-to-r from-slate-500/55 to-slate-500/5 backdrop-blur-2xl border-gray-500 border rounded-2xl @desktop:h-96 w-Full p-9 @desktop:flex-row">
                     <div className="relative flex items-center justify-center bg-gradient-to-b from-blue-500 to-[#15182D] rounded-2xl group cursor-pointer">
                         <Image
                             src={"/ImgNotaZero.png"}
@@ -99,9 +99,9 @@ export function TabNavigtion() {
                         </div>
                     </div>
                 </div>
-                <ul className="flex flex-col justify-between w-Full max-w-80">
+                <ul className="flex flex-row justify-between w-Full gap-4 @desktop:max-w-80 @desktop:flex-col @desktop::gap-0">
                     {Capitulos.map((item, index) => (
-                        <li key={index} className="flex items-center gap-6 bg-gradient-to-r from-slate-500/55 to-slate-500/5 backdrop-blur-2xl border-gray-500 border rounded-2xl p-3 cursor-pointer hover:scale-105 transition-all">
+                        <li key={index} className="flex flex-col items-center w-Full gap-6 bg-gradient-to-r from-slate-500/55 to-slate-500/5 backdrop-blur-2xl border-gray-500 border rounded-2xl p-3 cursor-pointer hover:scale-105 transition-all @tablet:flex-row">
                             <div 
                                 className='rounded-2xl' 
                                 style={{ 

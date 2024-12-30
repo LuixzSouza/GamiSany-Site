@@ -59,6 +59,10 @@ module.exports = {
       "float-person": "float-person 4s ease-in-out infinite",
       "float-chair": "float-chair 3s ease-in-out infinite",
     },
+    screens: {
+      '@desktop': '1024px',
+      '@tablet': '640px',
+    },
   },
   plugins: [],
 };

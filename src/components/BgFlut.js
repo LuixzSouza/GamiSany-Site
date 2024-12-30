@@ -8,14 +8,14 @@ export function Flutuante() {
                 alt=""
                 width={393}
                 height={658}
-                className="absolute left-44 -bottom-40 animate-float-backpack z-10"
+                className="absolute  bottom-1/3 -left-32  @desktop:left-44 @desktop:-bottom-40 animate-float-backpack z-10"
             />
             <Image
                 src={"/Bg-Chair.png"}
                 alt=""
                 width={533}
                 height={846}
-                className="absolute -bottom-60 -right-36 animate-float-person z-10"
+                className="absolute  animate-float-person z-10 -bottom-60 -right-36 "
             />
             <Image
                 src={"/Bg-Pen.png"}

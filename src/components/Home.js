@@ -1,6 +1,6 @@
 export function HomePage() {
     return(
-        <div className="relative z-20 pt-28 w-LeftText" >
+        <div className="flex flex-col items-center justify-center relative z-20 pt-28 w-Full text-center @desktop:text-left @desktop:w-LeftText @desktop:justify-start @desktop:items-start" >
             <div className="flex items-center gap-7 mb-6">
                 <p className="text-sm font-medium uppercase text-SpanAzulClaro" >4 HR 55 MIN</p>
                 <p className="text-sm font-medium uppercase text-SpanAzulClaro">2021</p>

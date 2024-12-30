@@ -32,7 +32,7 @@ export function HeaderPage() {
                 />
                 <span className="text-3xl font-semibold">Gaminsany</span>
             </div>
-            <div>
+            <div className="hidden @desktop:flex" >
                 <nav className="flex items-center gap-8">
                     {Navigation.map((item, index) => (
                         <Link key={index} href={item.Link} className="text-sm font-medium text-ColorWhite/50 hover:border-b hover:border-pink-400 hover:text-ColorWhite hover:scale-105 transition-colorsall ease-linear"> {item.Text} </Link>
@@ -41,7 +41,7 @@ export function HeaderPage() {
             </div>
             <div className="flex items-center gap-7">
                 <div className="flex w-full max-w-72 h-14 bg-gradient-to-r from-slate-500/55 to-slate-500/55 backdrop-blur-sm border-gray-500 rounded-full p-5" >
-                    <input placeholder="Pesquise um jogo" className="bg-white/0 w-full h-full"></input>
+                    <input placeholder="Pesquise um jogo" className="bg-white/0 w-full h-full hidden @tablet:flex"></input>
                     <Image
                         src={"/IconSearch.svg"}
                         alt="Icone Pesquisar"
