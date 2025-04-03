@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨ Sobre o Projeto
+Este projeto foi desenvolvido como parte de uma plataforma interativa, destacando funcionalidade e design fluído. O objetivo principal foi criar uma interface com foco na experiência do usuário. Esse desafio foi oferecido pelo curso Codeboost, onde o design foi fornecido, e a implementação ficou a cargo do desenvolvedor, buscando manter a simplicidade e a modernidade.
 
-## Getting Started
+## 🎯 Objetivo
+Explorar conceitos avançados de desenvolvimento Front-End, utilizando Next.js, Tailwind CSS e outras ferramentas, priorizando a otimização de desempenho e a responsividade para diferentes dispositivos.
 
-First, run the development server:
+## 💻 Tecnologias Utilizadas
+- Next.js: Framework utilizado para garantir performance e eficiência na criação da aplicação.
+- React.js: Gerenciamento de componentes e criação de uma interface dinâmica.
+- Tailwind CSS: Framework para estilização de forma prática e responsiva.
+- Tailwind Merge: Para garantir a combinação eficiente de classes CSS.
+- Netlify: Hospedagem otimizada e escalável para um deploy rápido.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Desafios e Aprendizados
+Os principais desafios incluíram:
+- Implementação de um design responsivo que se adapta bem a diferentes tamanhos de tela.
+- Criação de um efeito flutuante para o personagem de fundo, proporcionando uma experiência visual diferenciada.
+- Garantia de fluidez na navegação utilizando Tailwind CSS.
+- Uso do Next.js com Tailwind Merge para manipular classes CSS de forma eficiente, evitando conflitos e melhorando a manutenção do código.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Acesse o Projeto Online
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[🔗 Confira o site: Gamynsani Luiz](https://gamisanyluiz.netlify.app)
